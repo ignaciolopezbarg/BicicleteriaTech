@@ -6,7 +6,7 @@
   padding: 10px 20px;
   border: 2px solid black;
   border-radius: 8px;
-  margin: 8px;
+  margin: 0.5em 1em;
 }
 
 .pie__redes {
@@ -42,10 +42,19 @@
   flex-shrink: 1;
 }
 
-.pie__redes img,
+/* .pie__redes img,
 .pie__datos img {
   width: 50px;
-  height: auto;
+  height: 30px;
+  margin-right: 5px;
+  object-fit: cover;
+} */
+.pie__redes img,
+.pie__datos img {
+  max-width: 50px; /* Ancho máximo */
+  max-height: 50px; /* Altura máxima */
+  width: auto; /* Permite que el ancho se ajuste */
+  height: auto; /* Permite que la altura se ajuste */
   margin-right: 5px;
 }
 

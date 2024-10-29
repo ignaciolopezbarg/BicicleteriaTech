@@ -6,6 +6,7 @@ header.encabezado {
   padding:  20px;
   border-bottom: 2px solid #ccc;
   border-radius: 12px;
+  margin: 0 1em;
 }
 
 .encabezado__logo {

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    max-width: 1200px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    /*Le indicamos con esto que tome el color que viene heredado de la etiqueta html y no del azul que que le establece el navegador*/
+    font-family: inherit;
+    /*Para que los enlces que estan dentro de un header o footer tengan fuente Raleway y los que estan fuera tengan fuente Inter, los enlaces heredan de sus etiquetas padres el tipo de fuente*/
+  }
+  
+  ul,
+  ol {
+    list-style-type: none;
+  }

@@ -1,110 +1,105 @@
-.container__titulo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Inter;
-    font-weight: bold;
-    font-size: 2.4em;
-     padding: 1em;
+.container__titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 2.4em;
+  padding: 1em;
 }
 
-.container__info{
-    display: flex;
-    flex-direction: row;
-    
-    /* padding: 10px;
-    justify-content: space-between;
-    margin: 10px; */
+.container__info {
+  display: flex;
+  flex-direction: row;
 }
-.container__info__parrafo{
-    display: flex;
-    flex-direction: column;
-    border: 1px solid brown;
-   border-radius: 1.5em;
-    margin: 0 0.5em;
-    padding: 1em;
-     gap: 0.2rem; 
-    font-family: Inter;
-    font-size: 1.8em;
-    font-weight: 500;
-    background-color: #f4f4f4;
-
+.container__info__parrafo {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid brown;
+  border-radius: 1.5em;
+  margin: 0 0.5em;
+  padding: 1em;
+  gap: 0.2rem;
+  font-family: Inter;
+  font-size: 1.8em;
+  font-weight: 500;
+  background-color: #f4f4f4;
 }
 .container__imagenes {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Ajusta el número de columnas según el ancho disponible */
-    gap: 20px; 
-    padding: 20px;
-  }
-  
-  .container__imagenes__card {
-    background-color: #f4f4f4;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    padding: 16px;
-    text-align: center;
-  
-  }
-  
-  .container__imagenes__card img {
-    width: 110%; 
-    height: 250px; 
-    object-fit: contain; 
-    border-radius: 8px;
-    padding-right: 1.2rem;
-  }
-  
-  .container__imagenes__card_description {
-    font-size: 1.5rem;
-    margin: 12px 0;
-  }
-  
-  .container__imagenes__card__precio {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  
-  .container__imagenes__card__stock {
-    font-size: 1.3rem;
-    color: #777;
-    margin: 8px 0;
-  }
-  
-  .container__imagenes__card__boton {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 4px;
-    margin-top: 10px;
-  }
-  
-  .container__imagenes__card__boton:hover {
-    background-color: #0056b3;
-  }
-  .wapp {
-    display: flex;
-    flex-direction: column;
-    position: fixed; 
-    right: 25px; 
-    bottom: 180px; 
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(250px, 1fr)
+  ); /* Ajusta el número de columnas según el ancho disponible */
+  gap: 20px;
+  padding: 20px;
+}
+
+.container__imagenes__card {
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  text-align: center;
+}
+
+.container__imagenes__card img {
+  width: 110%;
+  height: 250px;
+  object-fit: contain;
+  border-radius: 8px;
+  padding-right: 1.2rem;
+}
+
+.container__imagenes__card_description {
+  font-size: 1.5rem;
+  margin: 12px 0;
+}
+
+.container__imagenes__card__precio {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.container__imagenes__card__stock {
+  font-size: 1.3rem;
+  color: #777;
+  margin: 8px 0;
+}
+
+.container__imagenes__card__boton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.container__imagenes__card__boton:hover {
+  background-color: #0056b3;
+}
+.wapp {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 25px;
+  bottom: 180px;
 }
 
 .tel-button {
-    background-image: url('../../img/img-bicis/wapp.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-image: url("../../img/img-bicis/wapp.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 
-    width: 80px; 
-    height: 40px; 
-    border: none; 
-    cursor: pointer;
+  width: 80px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
 }
-.wapp__llame{
-    color: blue;
-    align-content: center;
-    
+.wapp__llame {
+  color: blue;
+  align-content: center;
 }
-

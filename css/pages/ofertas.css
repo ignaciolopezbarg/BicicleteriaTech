@@ -80,17 +80,17 @@
 
 @media (max-width: 768px) {
   .card {
-    display: flex; 
-    
-    width: 90%; 
+    display: flex;
+
+    width: 90%;
   }
 
   .carousel-caption {
-    bottom: 20px; 
+    bottom: 20px;
   }
 
   h4.card-title {
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
   }
 
   .boton {

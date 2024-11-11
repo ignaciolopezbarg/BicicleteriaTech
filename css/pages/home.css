@@ -6,25 +6,30 @@
   font-weight: bold;
   font-size: 2.4em;
   padding: 1em;
+  
 }
 
-.container__info {
-  display: flex;
-  flex-direction: row;
-}
+
+
 .container__info__parrafo {
   display: flex;
   flex-direction: column;
   border: 1px solid brown;
-  border-radius: 1.5em;
-  margin: 0 0.5em;
-  padding: 1em;
-  gap: 0.2rem;
+  border-radius: 0.8em;
+  padding: 1rem;
   font-family: Inter;
   font-size: 1.8em;
   font-weight: 500;
   background-color: #f4f4f4;
+  margin: 1.5em 0.9em;
 }
+
+/* Aplica margen solo a los párrafos después del primero */
+.container__info__parrafo + .container__info__parrafo {
+  margin-top: 1.1em; /* Ajusta la separación entre los párrafos */
+}
+
+
 .container__imagenes {
   display: grid;
   grid-template-columns: repeat(

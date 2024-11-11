@@ -4,7 +4,6 @@
 
 /* misc */
 @import url('./misc/normalize.css');
-@import url('./misc/helpers.css');
 
 /* partials */
 @import url(./partials/footer.css);

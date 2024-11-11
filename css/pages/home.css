@@ -86,6 +86,7 @@
   position: fixed;
   right: 25px;
   bottom: 180px;
+  z-index: 20;
 }
 
 .tel-button {
@@ -102,4 +103,105 @@
 .wapp__llame {
   color: blue;
   align-content: center;
+
+}
+#cicloturismo {
+  padding: 1.5rem;
+}
+#cicloturismo__titulos h2 {
+  text-align: center;
+  font-size: 2.5rem; 
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#cicloturismo__titulos p,
+.cicloturismo__parrafo {
+  text-align: center;
+  font-size: 1.8rem; 
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 800px; 
+}
+.container__titulo {
+  text-align: center;
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 3.4rem;
+  padding: 1em;
+}
+
+.recorridos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Diseño en pantallas grandes (tres tarjetas por fila) */
+.recorridos {
+  flex: 1 1 calc(33.33% - 40px); /* Tres tarjetas por fila */
+  max-width: 300px;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: #f3e6e6;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column; /* Asegura que el contenido esté en columna */
+  justify-content: space-between;
+}
+.recorridos:hover{
+  background-color:#f4acac ;
+}
+.recorridos__boton {
+  border: 1px solid black;
+  width: 8rem;
+  height: 2.5rem; /* Ajusté la altura para hacerlo un poco más grande */
+  margin: 10px auto 0; /* Centrado automático */
+  text-align: center; /* Centra el texto dentro del botón */
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.recorridos__precio{
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #333;
+}
+.recorridos__boton{
+ 
+  border: 1px solid black;
+  width: 10rem;
+  height: 2.2rem;
+  
+}
+
+.recorridos__boton:hover{
+  background-color: #f28b8b;
+  transition: ;
+}
+
+/* Diseño en pantallas medianas (dos tarjetas por fila) */
+@media (max-width: 1200px) {
+  .recorridos {
+    flex: 1 1 calc(50% - 40px); /* Dos tarjetas por fila */
+  }
+}
+
+/* Diseño en pantallas pequeñas (una tarjeta por fila) */
+@media (max-width: 800px) {
+  .recorridos {
+    flex: 1 1 100%; /* Una tarjeta por fila */
+  }
+}
+
+.recorridos:hover,
+.recorridos:focus-within {
+  transform: scale(1.2);
+  z-index: 10;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }

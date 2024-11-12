@@ -6,10 +6,7 @@
   font-weight: bold;
   font-size: 2.4em;
   padding: 1em;
-  
 }
-
-
 
 .container__info__parrafo {
   display: flex;
@@ -23,19 +20,16 @@
   background-color: #f4f4f4;
   margin: 1.5em 0.9em;
 }
-
-/* Aplica margen solo a los párrafos después del primero */
 .container__info__parrafo + .container__info__parrafo {
-  margin-top: 1.1em; /* Ajusta la separación entre los párrafos */
+  margin-top: 1.1em;
 }
-
 
 .container__imagenes {
   display: grid;
   grid-template-columns: repeat(
     auto-fit,
     minmax(250px, 1fr)
-  ); /* Ajusta el número de columnas según el ancho disponible */
+  ); 
   gap: 20px;
   padding: 20px;
 }
@@ -108,24 +102,23 @@
 .wapp__llame {
   color: blue;
   align-content: center;
-
 }
 #cicloturismo {
   padding: 1.5rem;
 }
 #cicloturismo__titulos h2 {
   text-align: center;
-  font-size: 2.5rem; 
+  font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 20px;
 }
 #cicloturismo__titulos p,
 .cicloturismo__parrafo {
   text-align: center;
-  font-size: 1.8rem; 
+  font-size: 1.8rem;
   line-height: 1.6;
   margin: 0 auto;
-  max-width: 800px; 
+  max-width: 800px;
 }
 .container__titulo {
   text-align: center;
@@ -156,36 +149,34 @@
   background-color: #f3e6e6;
   font-size: 1.3rem;
   display: flex;
-  flex-direction: column; /* Asegura que el contenido esté en columna */
+  flex-direction: column; 
   justify-content: space-between;
 }
-.recorridos:hover{
-  background-color:#f4acac ;
+.recorridos:hover {
+  background-color: #f4acac;
 }
 .recorridos__boton {
   border: 1px solid black;
   width: 8rem;
-  height: 2.5rem; /* Ajusté la altura para hacerlo un poco más grande */
-  margin: 10px auto 0; /* Centrado automático */
-  text-align: center; /* Centra el texto dentro del botón */
+  height: 2.5rem; 
+  margin: 10px auto 0; 
+  text-align: center;
   cursor: pointer;
   border-radius: 0.5rem;
 }
 
-.recorridos__precio{
+.recorridos__precio {
   font-size: 1.4rem;
   font-weight: 600;
   color: #333;
 }
-.recorridos__boton{
- 
+.recorridos__boton {
   border: 1px solid black;
   width: 10rem;
   height: 2.2rem;
-  
 }
 
-.recorridos__boton:hover{
+.recorridos__boton:hover {
   background-color: #f28b8b;
   transition: ;
 }
